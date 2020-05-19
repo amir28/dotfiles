@@ -7,7 +7,7 @@ set ignorecase
 syntax on
 
 
-call plug#begin('/home/amir/.local/share/nvim/plugged')
+call plug#begin('~/.local/share/nvim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'vim-airline/vim-airline-themes'
@@ -24,7 +24,7 @@ set clipboard +=unnamedplus
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'default'
-let g:airline_powerline_fonts = 1
+" let g:airline_powerline_fonts = 1
 colorscheme dracula
 " let g:clang_debug = 2
 " set statusline+=%#warningmsg#
