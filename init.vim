@@ -3,6 +3,7 @@ filetype plugin on
 set number
 set mouse=a
 set hidden
+set ignorecase
 syntax on
 
 
@@ -58,4 +59,7 @@ let g:NERDDefaultAlign = 'left'
 let g:NERDCompactSexyComs = 1
 let g:NERDCommentEmptyLines = 1
 let g:NERDToggleCheckAllLines = 1
+
+nnoremap <leader>d "_d
+xnoremap <leader>d "_d
 
