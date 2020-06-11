@@ -3,6 +3,7 @@ filetype plugin on
 set number
 set mouse=a
 set hidden
+set ignorecase
 syntax on
 set clipboard +=unnamedplus
 
@@ -42,7 +43,6 @@ let g:NERDDefaultAlign = 'left'
 let g:NERDCompactSexyComs = 1
 let g:NERDCommentEmptyLines = 1
 let g:NERDToggleCheckAllLines = 1
-
 
 
 " Some settings for Coc
@@ -175,3 +175,7 @@ nnoremap <silent> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
+
+nnoremap <leader>d "_d
+xnoremap <leader>d "_d
+
